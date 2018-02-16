@@ -5,7 +5,7 @@ import {withDateSelection} from './Calendar/withDateSelection';
 export {default as Calendar} from './Calendar';
 export {withDateSelection} from './Calendar/withDateSelection';
 export {withKeyboardSupport} from './Calendar/withKeyboardSupport';
-export {withMultipleDates, defaultMultipleDateInterpolation} from './Calendar/withMultipleDates';
+export {withMultipleDates, defaultMultipleDateInterpolation, disableMultipleDateSelection} from './Calendar/withMultipleDates';
 export {withRange, EVENT_TYPE} from './Calendar/withRange';
 
 /*

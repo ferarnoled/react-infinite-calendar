@@ -71,3 +71,7 @@ export function defaultMultipleDateInterpolation(date, selected) {
     ? [...selected, date]
     : [...selected.slice(0, index), ...selected.slice(index+1)];
 }
+
+export function disableMultipleDateSelection(date, selected) {
+  return selected;
+}

@@ -34,8 +34,6 @@
     "react": "^15.3.0 || ^16.0.0-alpha"
   },
   "devDependencies": {
-    "@kadira/storybook": "^2.35.3",
-    "@kadira/storybook-addon-options": "^1.0.1",
     "babel-eslint": "^7.0.0",
     "babel-plugin-css-modules-transform": "^1.4.0",
     "eslint": "^3.8.1",
@@ -48,7 +46,9 @@
     "nwb": "^0.15.6",
     "nwb-sass": "^0.7.1",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "@kadira/storybook": "^2.35.3",
+    "@kadira/storybook-addon-options": "^1.0.1"
   },
   "author": {
     "name": "Clauderic Demers",
